@@ -11,7 +11,12 @@ public class Attendee extends DomainObject {
 	private String name;
 	private String reference;
 	
+	public Attendee () {
+		super();
+	}
+	
 	public Attendee (String name) {
+		this();
 		this.name = name;
 	}
 

@@ -11,8 +11,12 @@ public class Speaker extends DomainObject {
 	private String name;
 	private String miniBio;
 	
-	public Speaker(String name) {
+	public Speaker() {
 		super();
+	}
+	
+	public Speaker(String name) {
+		this();
 		this.name = name;
 	}
 

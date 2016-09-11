@@ -20,8 +20,12 @@ public class Session extends DomainObject {
 	private Speaker speaker;
 	private List<Attendee> attendees;
 	
-	public Session(String title, LocalDateTime startingTime, LocalDateTime endingTime, Speaker speaker) {
+	public Session () {
 		super();
+	}
+	
+	public Session(String title, LocalDateTime startingTime, LocalDateTime endingTime, Speaker speaker) {
+		this();
 		this.title = title;
 		this.startingTime = startingTime;
 		this.endingTime = endingTime;

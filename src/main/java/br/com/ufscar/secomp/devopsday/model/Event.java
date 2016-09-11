@@ -20,8 +20,12 @@ public class Event extends DomainObject {
 	private LocalDateTime lastDay;
 	private List<Session> sessions;
 	
-	public Event(String name, LocalDateTime firstDay, LocalDateTime lastDay, Speaker speaker) {
+	public Event () {
 		super();
+	}
+	
+	public Event(String name, LocalDateTime firstDay, LocalDateTime lastDay, Speaker speaker) {
+		this();
 		this.name = name;
 		this.firstDay = firstDay;
 		this.lastDay = lastDay;

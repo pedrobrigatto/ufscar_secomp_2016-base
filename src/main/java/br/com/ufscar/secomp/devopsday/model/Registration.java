@@ -13,8 +13,12 @@ public class Registration extends DomainObject {
 	private Attendee attendee;
 	private Session session;
 	
-	public Registration(LocalDateTime date, Attendee attendee, Session session) {
+	public Registration() {
 		super();
+	}
+	
+	public Registration(LocalDateTime date, Attendee attendee, Session session) {
+		this();
 		this.date = date;
 		this.attendee = attendee;
 		this.session = session;
