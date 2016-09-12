@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------- 
+Example of an event in JSON:
+-----------------------------------------------------------------------------
+{"name":"SECOMP","description":"SECOMP","firstDay":"2016-01-01T10:24","lastDay":"2016-01-01T10:24","sessions":[{"title":"Spring Data","description":"Spring Data","startingTime":"2016-01-01T10:24","endingTime":"2016-01-01T10:24","speaker":{"name":"Pedro","miniBio":"Pedro from Avaya"}}]}
+
+-----------------------------------------------------------------------------
+Command to post an event using curl (from a terminal)
+-----------------------------------------------------------------------------
+curl -i -X POST -H "Content-Type:application/json" -d '<json event here' http://localhost:8080/secomp/event
+
+--> Example: 
+curl -i -X POST -H "Content-Type:application/json" -d '{"name":"SECOMP","description":"SECOMP","firstDay":"2016-01-01T10:24","lastDay":"2016-01-01T10:24","sessions":[{"title":"Spring Data","description":"Spring Data","startingTime":"2016-01-01T10:24","endingTime":"2016-01-01T10:24","speaker":{"name":"Pedro","miniBio":"Pedro from Avaya"}}]}' http://localhost:8080/secomp/event
+
+-----------------------------------------------------------------------------
+Command to list all the events using curl (from a terminal)
+-----------------------------------------------------------------------------
+curl http://localhost:8080/secomp/event

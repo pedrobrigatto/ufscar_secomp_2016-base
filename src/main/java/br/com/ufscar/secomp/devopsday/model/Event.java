@@ -9,6 +9,13 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
+
 @Entity
 public class Event extends DomainObject {
 
@@ -48,6 +55,9 @@ public class Event extends DomainObject {
 		this.description = description;
 	}
 	
+	@DateTimeFormat (iso = DateTimeFormat.ISO.DATE_TIME)
+	@JsonDeserialize (using = LocalDateTimeDeserializer.class)
+	@JsonSerialize (using = LocalDateTimeSerializer.class)
 	public LocalDateTime getFirstDay() {
 		return firstDay;
 	}
@@ -56,6 +66,9 @@ public class Event extends DomainObject {
 		this.firstDay = firstDay;
 	}
 
+	@DateTimeFormat (iso = DateTimeFormat.ISO.DATE_TIME)
+	@JsonDeserialize (using = LocalDateTimeDeserializer.class)
+	@JsonSerialize (using = LocalDateTimeSerializer.class)
 	public LocalDateTime getLastDay() {
 		return lastDay;
 	}
