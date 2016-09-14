@@ -15,3 +15,10 @@ curl -i -X POST -H "Content-Type:application/json" -d '{"name":"SECOMP","descrip
 Command to list all the events using curl (from a terminal)
 -----------------------------------------------------------------------------
 curl http://localhost:8080/secomp/event
+
+-----------------------------------------------------------------------------
+Good reference to test your JSON 
+-----------------------------------------------------------------------------
+http://json.parser.online.fr/
+
+

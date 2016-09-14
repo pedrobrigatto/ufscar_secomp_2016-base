@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -34,6 +35,12 @@ public class EventController {
 		List<Event> events = new ArrayList<>();
 		loadEventsIntoList(events, eventRepository.findAll());
 		return new ResponseEntity<>(events, HttpStatus.OK);
+	}
+	
+	@RequestMapping (path = "/event/{id}", method = RequestMethod.GET)
+	public ResponseEntity<?> listEventById(@PathVariable Long id) {
+		Event event = eventRepository.findOne(id);
+		return new ResponseEntity<>(event, HttpStatus.OK);
 	}
 	
 	private List<Event> loadEventsIntoList(List<Event> listToFill, Iterable<Event> events) {
