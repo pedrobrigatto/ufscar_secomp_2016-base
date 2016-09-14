@@ -1,0 +1,14 @@
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/Registration.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/repositories/RegistrationRepository.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/App.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/repositories/EventRepository.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/repositories/SessionRepository.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/RegistrationStatus.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/Session.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/controllers/EventController.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/Attendee.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/repositories/AttendeeRepository.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/repositories/SpeakerRepository.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/Event.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/DomainObject.java
+/Users/pedrobrigatto/Personal/SeComp2016-UFSCar/Project/ufscar_secomp_2016-base/src/main/java/br/ufscar/secomp/devopsday/model/Speaker.java
