@@ -22,3 +22,23 @@ Good reference to test your JSON
 http://json.parser.online.fr/
 
 -----------------------------------------------------------------------------
+About CI and GitHub (using TravisCI)
+-----------------------------------------------------------------------------
+https://docs.travis-ci.com/user/getting-started/
+https://docs.travis-ci.com/user/languages/java
+https://blog.travis-ci.com/2013-11-26-test-your-java-libraries-on-java-8/
+
+-----------------------------------------------------------------------------
+Using SonarQube together with Travis CI
+-----------------------------------------------------------------------------
+https://sonarqube.com (log in with GitHub)
+
+
+1. Generate a token (my account > security > new token ('secomp_sonar') --> b96c4252d8c5e65ee93cdd9d7124be3b0f412502
+2. Install travis CLI (sudo gem install travis, as you may not have write permission on some directories as non-root)
+3. Encrypt key, linking it to the environment variable called (travis encrypt SONAR_TOKEN=secret_key)
+
+
+
+
+
