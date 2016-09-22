@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: ufscar_secomp_2016_base
 Implementation-Version: 0.1.0
-Built-By: pedrobrigatto
+Built-By: User
 Implementation-Vendor-Id: br.ufscar.secomp.devopsday
-Build-Jdk: 1.8.0_25
+Build-Jdk: 1.8.0_101
 Implementation-URL: http://projects.spring.io/spring-boot/ufscar_secom
  p_2016_base/
 Created-By: Maven Integration for Eclipse
