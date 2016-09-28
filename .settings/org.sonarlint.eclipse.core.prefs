@@ -1,0 +1,5 @@
+autoEnabled=true
+eclipse.preferences.version=1
+extraProperties=
+moduleKey=br.ufscar.secomp.devopsday\:ufscar_secomp_2016_base
+serverId=sonarqube
