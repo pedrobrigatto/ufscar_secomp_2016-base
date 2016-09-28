@@ -61,8 +61,13 @@
 			<artifactId>spring-boot-starter-data-couchbase</artifactId>
 		</dependency>
 
-		<!-- <dependency> <groupId>com.newrelic.agent.java</groupId> <artifactId>newrelic-java</artifactId> 
-			<version>3.32.0</version> <scope>provided</scope> <type>zip</type> </dependency> -->
+		<dependency>
+			<groupId>com.newrelic.agent.java</groupId>
+			<artifactId>newrelic-java</artifactId>
+			<version>3.32.0</version>
+			<scope>provided</scope>
+			<type>zip</type>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -71,8 +76,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
-			<!--
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -101,7 +105,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			-->
 		</plugins>
 	</build>
 
