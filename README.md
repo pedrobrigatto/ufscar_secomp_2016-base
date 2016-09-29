@@ -5,3 +5,6 @@ Modificação simples para testar integração com o TravisCI
 Comentário para testar a revisão de aplicações no Heroku
 Adicionando modificacao para verificar build depois da configuracao do New Relic
 Configurada nova aplicacao na conta heroku para usar new relic
+Tentando integração novamente sem esperar por CI
+Testando integração entre Travis e Heroku
+
